@@ -23,3 +23,5 @@
 18) "npm run build" will now compile to dist
 19) Install ts-node (npm install ts-node --save-dev)
 20) Update launch.json (https://stackoverflow.com/questions/31169259/how-to-debug-typescript-files-in-visual-studio-code)
+21) Install: npm i -D @types/express
+22)

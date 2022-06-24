@@ -5,6 +5,7 @@ declare global {
         NODE_ENV: 'development' | 'production';
         PORT: string;
         PWD: string;
+        TS_NODE_PROJECT: string;
       }
     }
   }
@@ -12,3 +13,4 @@ declare global {
   // If this file has no import/export statements (i.e. is a script)
   // convert it into a module by adding an empty export statement.
   export {}
+
