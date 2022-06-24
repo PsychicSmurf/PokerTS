@@ -8,4 +8,16 @@
 3a) Protext main
 5) Clone repo
 6) Create app folder
-7) In app folder initialise nodejs: npm init --yes
+7) Create package file: In app folder initialise nodejs: npm init --yes
+8) Create server: In app folder: npm install express dotenv
+9) In app folder create app.js (https://blog.logrocket.com/how-to-set-up-node-typescript-express/)
+10) npm install dotenv (https://blog.logrocket.com/customizing-node-js-env-files/)
+11) Create .env file
+12) Create launch.json in VS Code in the Run Debug option
+13) Install typescript: npm i -D typescript @types/express @types/node
+14) Create tsconfig.json: npx tsc --init
+14a) Activate option to "outDir": "dist"
+15) Change express server to ts (https://blog.logrocket.com/how-to-set-up-node-typescript-express/)
+16) Create environment.d.ts in root: https://stackoverflow.com/questions/45194598/using-process-env-in-typescript
+17) Add build to package.json (https://blog.logrocket.com/how-to-set-up-node-typescript-express/)
+18) "npm run build" will now compile to dist
