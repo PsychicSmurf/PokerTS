@@ -24,4 +24,14 @@
 19) Install ts-node (npm install ts-node --save-dev)
 20) Update launch.json (https://stackoverflow.com/questions/31169259/how-to-debug-typescript-files-in-visual-studio-code)
 21) Install: npm i -D @types/express
-22)
+22) npm install --save-dev jest
+23) npm install --save-dev ts-jest
+24) npm install --save-dev @types/jest
+25) npm install --save-dev babel-jest @babel/core @babel/preset-env
+26) npm install --save-dev @babel/preset-typescript
+27) ./node_modules/.bin/jest --init
+28) npm install --save-dev supertest
+29) npm test now activates a live test monitor
+
+
+npm install @types/express --save-dev

@@ -1,4 +1,5 @@
-//import { Request, Response } from 'express';
+import { Request, Response, NextFunction } from 'express';
+
 const dotenv = require('dotenv');
 const path = require("path")
 dotenv.config({ path: path.join(process.cwd(), ".env") })
@@ -8,7 +9,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req: Request, res: Response) => {
-  //res.send('Express + TypeScript Server');
+  res.send('Express + TypeScript Server');
 });
 
 app.listen(port, () => {
