@@ -34,4 +34,6 @@
 29) npm test now activates a live test monitor
 
 
-npm install @types/express --save-dev
+
+
+https://github.com/visionmedia/supertest
