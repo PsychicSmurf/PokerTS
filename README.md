@@ -21,3 +21,5 @@
 16) Create environment.d.ts in root: https://stackoverflow.com/questions/45194598/using-process-env-in-typescript
 17) Add build to package.json (https://blog.logrocket.com/how-to-set-up-node-typescript-express/)
 18) "npm run build" will now compile to dist
+19) Install ts-node (npm install ts-node --save-dev)
+20) Update launch.json (https://stackoverflow.com/questions/31169259/how-to-debug-typescript-files-in-visual-studio-code)
