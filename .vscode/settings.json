@@ -11,10 +11,15 @@
         "typescript",
         "typescriptreact"
     ],
-    "standard.workingDirectories": [],
+    "standard.workingDirectories": [
+
+    ],
     "standard.options": { },
     "standard.nodePath": "${workspaceFolder}/app/node_modules",
     "typescript.tsserver.log": "terse",
     "js/ts.implicitProjectConfig.experimentalDecorators": false,
     "js/ts.implicitProjectConfig.strictFunctionTypes": true,
+     "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }
