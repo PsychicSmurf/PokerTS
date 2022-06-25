@@ -1,6 +1,6 @@
 import { jest, describe, expect, test } from '@jest/globals'
 import request from 'supertest'
-import app from './app'
+import app from '../app'
 
 describe('GET /user', () => {
   jest.setTimeout(5000)

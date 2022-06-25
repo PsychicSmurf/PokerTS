@@ -7,7 +7,8 @@ router.get('/user', function (req: Request, res: Response) {
     name: 'john',
     completed: true
   }
-  res.status(200).json(data)
+  res.status(200).json(data);
+
 })
 
 export default router

@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "runtimeExecutable": "node",
-            "program": "${workspaceFolder}/app/dist/index.js",
+            "program": "${workspaceFolder}/app/dist/launch.js",
             "preLaunchTask": "npm: prestart - app",
             "sourceMaps": true,
             "smartStep": true,
@@ -21,7 +21,7 @@
             "type": "node",
             "request": "launch",
             "skipFiles": [ "${workspaceFolder}/app/node_modules/**/*.js" ],
-            "program": "${workspaceFolder}/app/src/index.ts",
+            "program": "${workspaceFolder}/app/src/launch.ts",
             "preLaunchTask": "tsc: build - app/tsconfig.json",
             "runtimeArgs": [ "-r", "${workspaceFolder}/app/node_modules/ts-node/register" ]
           }
