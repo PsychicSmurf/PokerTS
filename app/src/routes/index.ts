@@ -1,6 +1,5 @@
-import { Request, Response } from 'express'
-
-const express = require('express')
+import express, { Request, Response } from 'express'
+// import express from 'express'
 const router = express.Router()
 
 router.get('/user', function (req: Request, res: Response) {
@@ -8,7 +7,7 @@ router.get('/user', function (req: Request, res: Response) {
     name: 'john',
     completed: true
   }
-  res.status(200).json(data);
+  res.status(200).json(data)
 })
 
-module.exports = router
+export default router

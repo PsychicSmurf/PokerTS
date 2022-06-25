@@ -12,21 +12,18 @@
     "outDir": "./dist",                                  /* Specify an output folder for all emitted files. */
     "rootDir": "./src",
     "removeComments": true,                              /* Disable emitting comments. */
-    "isolatedModules": true,                             /* Ensure that each file can be safely transpiled without relying on other imports. */
-    "allowSyntheticDefaultImports": true,                /* Allow 'import x from y' when a module doesn't have a default export. */
-    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    //"isolatedModules": true,                             /* Ensure that each file can be safely transpiled without relying on other imports. */
+    //"allowSyntheticDefaultImports": true,                /* Allow 'import x from y' when a module doesn't have a default export. */
+    //"esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    //"forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
     "strict": true,                                      /* Enable all strict type-checking options. */
-    "noFallthroughCasesInSwitch": true,                  /* Enable error reporting for fallthrough cases in switch statements. */
+    //"noFallthroughCasesInSwitch": true,                  /* Enable error reporting for fallthrough cases in switch statements. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "exclude": [ "node_modules",
-               "**/node_modules/*",
-               "dist",
-               "**/dist/*",
-               "src/**/*.spec.ts",
-               "src/**/*.test.ts",
-               "jest.config.ts",
-              ],
+    "**/node_modules/*",
+    "dist",
+    "**/dist/*",
+  ],
   "include": ["**/*"],
 }

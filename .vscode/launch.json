@@ -9,27 +9,21 @@
             "type": "node",
             "request": "launch",
             "runtimeExecutable": "node",
-            "program": "${workspaceFolder}\\app\\dist\\app.js",
+            "program": "${workspaceFolder}/app/dist/index.js",
             "preLaunchTask": "npm: prestart - app",
             "sourceMaps": true,
             "smartStep": true,
             "internalConsoleOptions": "openOnSessionStart",
-            "outFiles": [
-                "${workspaceFolder}\\dist\\**\\*.js"
-            ]
+            "outFiles": [ "${workspaceFolder}/dist/**/*.js" ]
         },
         {
             "name": "Debug TypeScript",
             "type": "node",
             "request": "launch",
-            "skipFiles": [
-                "${workspaceFolder}/app/node_modules/**/*.js"],
-            "program": "${workspaceFolder}/app/app.ts",
+            "skipFiles": [ "${workspaceFolder}/app/node_modules/**/*.js" ],
+            "program": "${workspaceFolder}/app/src/index.ts",
             "preLaunchTask": "tsc: build - app/tsconfig.json",
-            "runtimeArgs": [
-                "-r",
-                "${workspaceFolder}/app/node_modules/ts-node/register"
-            ]
+            "runtimeArgs": [ "-r", "${workspaceFolder}/app/node_modules/ts-node/register" ]
           }
     ]
 }
