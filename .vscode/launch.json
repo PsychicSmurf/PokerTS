@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build/Run JavaScript",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "node",
+            "program": "${workspaceFolder}/app/dist/launch.js",
+            "preLaunchTask": "npm: prestart - app",
+            "sourceMaps": true,
+            "smartStep": true,
+            "internalConsoleOptions": "openOnSessionStart",
+            "outFiles": [ "${workspaceFolder}/dist/**/*.js" ]
+        },
+        {
+            "name": "Debug TypeScript",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [ "${workspaceFolder}/app/node_modules/**/*.js" ],
+            "program": "${workspaceFolder}/app/src/launch.ts",
+            "preLaunchTask": "tsc: build - app/tsconfig.json",
+            "runtimeArgs": [ "-r", "${workspaceFolder}/app/node_modules/ts-node/register" ]
+          }
+    ]
+}

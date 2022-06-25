@@ -1,0 +1,25 @@
+{
+    "standard.enableGlobally": true,
+    "standard.usePackageJson": true,
+    "standard.engine": "ts-standard",
+    "standard.treatErrorsAsWarnings": false,
+    "standard.enable": true,
+    "standard.run": "onSave",
+    "standard.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "standard.workingDirectories": [
+
+    ],
+    "standard.options": { },
+    "standard.nodePath": "${workspaceFolder}/app/node_modules",
+    "typescript.tsserver.log": "terse",
+    "js/ts.implicitProjectConfig.experimentalDecorators": false,
+    "js/ts.implicitProjectConfig.strictFunctionTypes": true,
+     "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}
